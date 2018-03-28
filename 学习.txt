@@ -1,0 +1,10 @@
+据库连接字符串(web.config来配置)，可以动态更改connectionString支持多数据库.		
+<appSettings>
+	<add key="WijmoTheme" value="cobalt" />
+	<add key="GJPSqlServer" value="A8170101.dbo." />
+public static string GJPSqlServer = ConfigurationManager.AppSettings["GJPSqlServer"];
+
+
+a 标记 onclick 调用js js 调用服务器控件
+
+ScriptManager.RegisterClientScriptBlock(UpdatePanel1, this.GetType(), "js", "alert('延期失败,请检查数据完整性！');", true);
